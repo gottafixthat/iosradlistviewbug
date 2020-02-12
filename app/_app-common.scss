@@ -1,0 +1,169 @@
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/blue";
+
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+
+// Font icon class
+.fa {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+// Common page class
+page {
+    background-color: #e9edf5;
+}
+
+page.platform-ios {
+    margin-top: -20;
+}
+
+.page__content {
+    &-icon,
+    &-placeholder {
+        color: const(grey);
+        font-size: 20;
+        vertical-align: center;
+        horizontal-align: center;
+    }
+
+    &-icon {
+        font-size: 72;
+        vertical-align: top;
+        margin-top: 20%;
+    }
+}
+
+// Drawer navigation custom styles
+.nt-drawer__header-image {
+    color: const(grey);
+}
+
+.content-card {
+    padding: 5;
+    margin: 5;
+    font-size: 14;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.avatar-circle {
+    font-size: 20;
+    height: 30;
+    width: 30;
+    color: #fff;
+    border-color: #acacac;
+    border-width: 1;
+    background-color: #fff;
+    border-radius: 25;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 2;
+    margin-bottom: 2;
+    horizontal-align: left;
+    vertical-align: center;
+    text-align: center;
+}
+
+.event-date-box {
+    height: 55;
+    width: 55;
+    background-color: rgb(197, 44, 102);
+}
+
+.dateBox {
+    background-color: rgb(197,44,102);
+    color: #fff;
+    text-align: center;
+    padding-top: 3;
+}
+.dateBoxDay {
+    font-size: 24;
+}
+.dateBoxMonth {
+    padding-left: 15;
+    padding-right: 15;
+    font-size: 12;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.eventTitle {
+    padding-left: 8;
+    font-weight: bold;
+    color: #000;
+    font-size: 14;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.eventDesc {
+    padding-left: 8;
+    font-size: 12;
+}
+.eventDateTime {
+    padding-left: 3;
+    padding-bottom: 1;
+    padding-top: 2;
+    font-size: 10;
+    color: #5c687c;
+}
+.eventIcon {
+    padding-left: 8;
+    padding-bottom: 1;
+    padding-top: 2;
+    font-size: 10;
+    color: #5c687c;
+}
+.eventLocationTitle {
+    padding-left: 8;
+    font-weight: bold;
+    color: #000;
+    font-size: 14;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.eventLocation {
+    padding-left: 3;
+    font-size: 10;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #5c687c;
+}
+.noschool {
+    background-color: #00c0ef;
+    color: #ffffff;
+    padding: 3;
+    font-size: 12;
+    font-weight: bold;
+}
+.action-button {
+    margin: 0 0 0 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.like-buttons {
+    background: #ffffff;
+    border-color: #f4f4f4;
+    border-width: 1 0 0 0;
+    font-size: 10;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+}
